@@ -1,0 +1,12 @@
+services:
+  # Production Service
+  - type: web
+    name: ai-product-discovery-backend
+    env: node
+    repo: https://github.com/yourusername/ai-product-discovery
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    region: oregon
+    healthCheckPath: /health
