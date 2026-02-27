@@ -15,7 +15,7 @@ function App() {
   const [result, setResult] = useState(null);
 
   useEffect(() => {
-    fetch("/api/products")
+    fetch("https://discvraiassignment.onrender.com/api/products")
       .then((res) => res.json())
       .then((data) => setAllProducts(data.products ?? []))
       .catch(() => setError("Could not load product catalog."))

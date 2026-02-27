@@ -3,7 +3,7 @@
 
 import { AskResponse, ProductsResponse } from "../types/product";
 
-const BASE = "/api";
+const BASE = "https://discvraiassignment.onrender.com/api";
 
 export async function fetchProducts(params?: {
   category?: string;

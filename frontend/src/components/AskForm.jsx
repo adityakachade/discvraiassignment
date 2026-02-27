@@ -25,7 +25,7 @@ export const AskForm = ({ onResult, onLoading, onError }) => {
     onError(null);
 
     try {
-      const res = await fetch("/api/ask", {
+      const res = await fetch("https://discvraiassignment.onrender.com/api/ask", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query: text }),
