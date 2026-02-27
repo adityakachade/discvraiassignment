@@ -16,7 +16,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // Middleware
-app.use(cors({ origin: ["http://localhost:3000", "https://disvrai.netlify.app"] }));
+app.use(cors({ origin: ["http://localhost:3000", "https://disvrai.netlify.app", "https://*.netlify.app"] }));
 app.use(express.json());
 
 // Routes
