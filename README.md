@@ -1,6 +1,6 @@
 # 🛍 AI Product Discovery
 
-A full-stack AI-powered product discovery demo built with **React** (frontend) and **Node.js / Express** (backend), integrated with the **Anthropic Claude API** for natural-language product search.
+A full-stack AI-powered product discovery demo built with **React** (frontend) and **Node.js / Express** (backend), integrated with the **OpenAI API** for natural-language product search.
 
 ---
 
