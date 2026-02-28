@@ -18,7 +18,7 @@ Users type a plain-language query like *"budget laptop for gaming"* and the back
 │                         │         │                              │
 │  AskForm                │  POST   │  /api/ask                    │
 │  AISummary              │ /api/ask│    → askAI()                 │
-│  ProductList            │         │    → Anthropic API           │
+│  ProductList            │         │    → OpenAi API           │
 │  ProductCard            │  GET    │    → validate product IDs    │
 │                         │ /api/   │    → in-memory cache         │
 │                         │products │  /api/products               │
@@ -223,9 +223,3 @@ Raw SDK errors are never forwarded to clients.
 - **Faceted filtering UI** — combine AI search with manual category/price filters in the frontend
 
 ---
-
-## Time Spent
-
-_[Placeholder — fill in before submitting]_
-
-Approx. 3–4 hours: architecture setup, API design, LLM integration, component structure, styling, error handling, README.
